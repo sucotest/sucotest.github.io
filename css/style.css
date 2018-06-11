@@ -208,7 +208,7 @@ i:before {
   padding: 0px;
   /*border-bottom: 1px solid #626571;*/
   background: black;
-  height:80px !important;
+  height:40px !important;
 }
 
 .main_menu_area .navbar {
@@ -237,7 +237,7 @@ i:before {
 
 .main_menu_area .navbar .navbar-nav li a {
   padding: 0px;
-  line-height: 78px;
+  line-height: 35px;
   color: #fff;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
@@ -352,7 +352,7 @@ i:before {
 }
 
 .main_menu_area.navbar_fixed .navbar .navbar-nav li a {
-  line-height: 70px;
+  line-height: 30px;
 }
 
 /* End Main Menu Area css
