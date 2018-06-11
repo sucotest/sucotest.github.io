@@ -207,7 +207,7 @@ i:before {
   z-index: 30;
   padding: 0px;
   /*border-bottom: 1px solid #626571;*/
-  background: black;
+  background:#35478C !important;
   height:60px !important;
 }
 

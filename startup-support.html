@@ -34,6 +34,40 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <style>
+            .dropdown-menu{
+               
+                border-bottom: white 5px solid;
+                background-color: #35478C!important;
+                
+               
+            }
+            .dropdown-menu:hover{
+                animation-delay: 1ms;
+                border-bottom: #35478C 5px solid;
+               
+            }
+            .nav-item:hover{
+                border-bottom: #35478C 4px solid;
+            }
+            .dropdown-item:hover{
+             background:#35478C;
+             
+            }
+
+            .nav-item:hover{
+                background:#35478C;
+                padding-left: 0px;
+                padding-right: 0px;
+               
+            }
+            .main_menu_area .navbar .navbar-nav.justify-content-end li:last-child{
+                margin-right: 30px;
+            }
+            .navbar-light .navbar-brand{
+                margin-left: 12px;
+            }
+        </style>
     </head>
     <body>
 
@@ -47,9 +81,9 @@
         <!--================End Search Area =================-->
 
         <!--================Header Menu Area =================-->
-      <header class="main_menu_area">
+        <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/suco_logo.png" alt="" style="width:100px; height:32px;"></a>
+                <a class="navbar-brand" href="#"><img src="img/suco_logo.png" alt="" style="width:150px; height:22px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -59,30 +93,40 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+
                         <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:black; color: white; z-index:-1;">
-                                <a class="dropdown-item" href="softwaretesting.html" style="line-height:20px;">Software Testing</a>
-                                <a class="dropdown-item" href="appdevelopment.html" style="line-height:20px">App Development</a>
-                                <a class="dropdown-item" href="infrastructure.html" style="line-height:20px;">Infrastructure Management</a>
-                                <a class="dropdown-item" href="sportsanalytics.html" style="line-height:20px;">Sports Analytics</a>
-                                <a class="dropdown-item" href="digitalmarketing.html" style="line-height:20px;">Digital Marketing</a>
-                                <a class="dropdown-item" href="bop.html" style="line-height:20px">Backoffice Publishing</a>
-                                <a class="dropdown-item" href="webdevelopment.html" style="line-height:20px;">Web Development</a>
-                                <a class="dropdown-item" href="softwaredevelopment.html" style="line-height:20px;">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="softwaretesting.html" style="line-height:20px;color: white;">Software Testing</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="appdevelopment.html" style="line-height:20px;color: white; ">App Development</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="infrastructure.html" style="line-height:20px;color: white; ">Infrastructure Management</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="sportsanalytics.html" style="line-height:20px;color: white; ">Sports Analytics</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="digitalmarketing.html" style="line-height:20px;color: white;">Digital Marketing</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="bop.html" style="line-height:20px;color:white;">Backoffice Publishing</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="webdevelopment.html" style="line-height:20px;color: white;">Web Development</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="softwaredevelopment.html" style="line-height:20px;color: white;">
                                     Software Development</a>
-                                <a class="dropdown-item" href="bpoites.html" style="line-height:20px;">BPO / ITES</a>
+                                    <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="bpoites.html" style="line-height:20px;color:white; padding-bottom: 0px;">BPO / ITES</a>
+                                
                             </div>
                         </li>
                          <li class="nav-item"><a class="nav-link" href="startup-support.html">Start-up Support</a></li>
                          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-                        <li class="nav-item"><a  href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a  href="portfolio.html">Products</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
                         <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:black; color: white; z-index:-1;">
-                                <a class="dropdown-item" href="ourteam.html" style="line-height:20px;">Our Team</a>
-                                <a class="dropdown-item" href="gallery.html" style="line-height:20px">Gallery</a>
-                                <a class="dropdown-item" href="career.html" style="line-height:20px;">Careers</a>
-                               
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: black; opacity: 0.9;">
+                                <a class="dropdown-item" href="ourteam.html" style="line-height:20px;color: white;">Our Team</a>
+                                <a class="dropdown-item" href="gallery.html" style="line-height:20px;color: white;">Gallery</a>
+                                <a class="dropdown-item" href="career.html"style="line-height:20px;color: white;">Careers</a>
+                              
                             </div>
                         </li>
                     </ul>
@@ -92,6 +136,7 @@
                     </ul>
                 </div>
             </nav>
+         
         </header>
         <!--================End Header Menu Area =================-->
 
