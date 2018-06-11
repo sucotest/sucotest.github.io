@@ -37,6 +37,39 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <style>
+            .dropdown-menu{
+               
+                border-bottom: red 5px solid;
+                
+               
+            }
+            .dropdown-menu:hover{
+                animation-delay: 1ms;
+                border-bottom: #23D09A 5px solid;
+               
+            }
+            .nav-item:hover{
+                border-bottom: #23D09A 4px solid;
+            }
+            .dropdown-item:hover{
+             background: linear-gradient(to right, #23D09A , blue);
+             
+            }
+
+            .nav-item:hover{
+                background: linear-gradient(to right, #23D09A  , blue);
+                padding-left: 0px;
+                padding-right: 0px;
+               
+            }
+            .main_menu_area .navbar .navbar-nav.justify-content-end li:last-child{
+                margin-right: 30px;
+            }
+            .navbar-light .navbar-brand{
+                margin-left: 12px;
+            }
+        </style>
     </head>
     <body>
 
@@ -52,7 +85,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area" style="background: black; opacity: 0.7;">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/suco_logo.png" alt="" style="width:150px; height:32px;"></a>
+                <a class="navbar-brand" href="#"><img src="img/suco_logo.png" alt="" style="width:150px; height:22px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -73,8 +106,8 @@
                                 <a class="dropdown-item" href="webdevelopment.html" style="line-height:20px;color: white;">Web Development</a>
                                 <a class="dropdown-item" href="softwaredevelopment.html" style="line-height:20px;color: white;">
                                     Software Development</a>
-                                <a class="dropdown-item" href="bpoites.html" style="line-height:20px;color:white;">BPO / ITES</a>
-                                <hr>
+                                <a class="dropdown-item" href="bpoites.html" style="line-height:20px;color:white; padding-bottom: 0px;">BPO / ITES</a>
+                                
                             </div>
                         </li>
                          <li class="nav-item"><a class="nav-link" href="startup-support.html">Start-up Support</a></li>
@@ -82,11 +115,11 @@
                         <li class="nav-item"><a  href="portfolio.html">Products</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
                         <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="ourteam.html" style="line-height:20px;color: #23D09A; padding:10px;">Our Team</a>
-                                <a class="dropdown-item" href="compact-gallery.html" style="line-height:20px;color: #23D09A; padding:10px;">Gallery</a>
-                                <a class="dropdown-item" href="career.html" style="line-height:20px;color: #23D09A; padding:10px;">Careers</a>
-                               <hr>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: black; opacity: 0.9;">
+                                <a class="dropdown-item" href="ourteam.html" style="line-height:20px;color: white;">Our Team</a>
+                                <a class="dropdown-item" href="gallery.html" style="line-height:20px;color: white;">Gallery</a>
+                                <a class="dropdown-item" href="career.html"style="line-height:20px;color: white;">Careers</a>
+                              
                             </div>
                         </li>
                     </ul>
