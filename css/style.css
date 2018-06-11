@@ -208,7 +208,7 @@ i:before {
   padding: 0px;
   /*border-bottom: 1px solid #626571;*/
   background: black;
-  height:40px !important;
+  height:60px !important;
 }
 
 .main_menu_area .navbar {
@@ -236,7 +236,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li a {
-  padding: 0px;
+  padding-top: 10px;
   line-height: 35px;
   color: #fff;
   font-size: 14px;
