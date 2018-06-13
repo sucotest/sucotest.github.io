@@ -2025,12 +2025,14 @@ i:before {
 .copy_right_area .float-md-right .nav li:hover a {
   color: #2bc0a4;
 }
+@media only screen and (max-width: 900px){
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
 .dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
 }
 
 .dropdown-menu
