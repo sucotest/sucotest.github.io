@@ -49,6 +49,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: none;
 }
 
 a:hover, a:focus {
@@ -305,10 +306,10 @@ i:before {
   display: none;
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
+/*.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
   color: #2bc0a4;
 }
-
+*/
 @media (min-width: 992px) {
   .main_menu_area .navbar .navbar-nav li.submenu:hover.submenu .dropdown-menu {
     -webkit-transform: scaleY(1);
@@ -510,9 +511,9 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
-.banner_text_inner ul li:hover a {
+/*.banner_text_inner ul li:hover a {
   color: #2bc0a4;
-}
+}*/
 
 .banner_text_inner h5 {
   font-size: 18px;
@@ -596,10 +597,10 @@ i:before {
   color: #2bc0a4;
 }
 
-.c_box_item h4:hover {
+/*.c_box_item h4:hover {
   color: #2bc0a4;
 }
-
+*/
 .c_box_item p {
   font-size: 14px;
   line-height: 26px;
@@ -807,10 +808,10 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
-.read_btn:hover {
+/*.read_btn:hover {
   background-position: right center;
   color: #232d37;
-}
+}*/
 
 .tp_btn {
   height: 46px;
@@ -920,10 +921,10 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
-.more_btn:hover {
+/*.more_btn:hover {
   text-decoration: none;
   color: #2bc0a4;
-}
+}*/
 
 .submit_btn {
   font-size: 13px;
