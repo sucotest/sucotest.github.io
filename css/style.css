@@ -2043,7 +2043,7 @@ i:before {
   margin-top:-10px !important;
 }
 
-m-navbar ul li:hover > a{text-decoration: none !important; background-color: #656a6f !important;border-radius: 4px !important;color: ``!important;!}
+m-navbar ul li:hover > a{text-decoration: none !important; background-color: #656a6f !important;/*border-radius: 4px !important;*/color: ``!important;!}
 /* End Footer Area css
 ============================================================================================ 
 /*---------------------------------------------------- */
@@ -2133,3 +2133,7 @@ m-navbar ul li:hover > a{text-decoration: none !important; background-color: #65
 }
 li, a:hover
 {background:none !important;color:inherit !important;}
+li:hover
+{
+  border-bottom:transparent!important;  
+}
