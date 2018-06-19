@@ -1114,7 +1114,7 @@ i:before {
 
 .testimonials_slider .item .media .media-body h4 a {
   font-size: 16px;
-  color: #232d37;
+  /*color: #232d37;*/
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
@@ -2045,7 +2045,7 @@ i:before {
 
 m-navbar ul li:hover > a{text-decoration: none !important; background-color: #656a6f !important;border-radius: 4px !important;color: ``!important;!}
 /* End Footer Area css
-============================================================================================ */
+============================================================================================ 
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
@@ -2131,3 +2131,5 @@ m-navbar ul li:hover > a{text-decoration: none !important; background-color: #65
 .navbar-nav li a{
   padding-top: 0px;
 }
+li, a:hover
+{background:none !important;color:inherit !important;}
